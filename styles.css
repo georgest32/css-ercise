@@ -49,3 +49,5 @@
   margin-top: -234px;
   margin-left: -200px;
 }
+
+/* display:flex; transform: translate() @keyframes NAME{ 0% {0px;} 10% {15px;} 90%{15px;} 100%{0px;}} */
