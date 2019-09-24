@@ -1,7 +1,29 @@
-.mainBtn{
-  background-color: black;
+.mainBtn {
+  background-color: grey;
+  width: 200px;
+  height: 200px;
+  margin-top: 10%;
+  transform: rotate(45deg);
 }
 
-#picturesBtn{
-  border-radius: 4px;
+.mainBtn p {
+  color: black;
+  transform: rotate(-45deg);
+}
+
+#homeBtn {
+  margin-left: 25%;
+}
+
+#projectsBtn {
+  display: block;
+
+}
+
+#aboutBtn {
+  display: inline-block;
+}
+
+#contactBtn {
+  /* border-radius: 4px; */
 }
