@@ -2,28 +2,40 @@
   background-color: grey;
   width: 200px;
   height: 200px;
-  margin-top: 10%;
   transform: rotate(45deg);
+}
+
+.mainBtn:hover {
+  background-color: lightgrey;
 }
 
 .mainBtn p {
   color: black;
   transform: rotate(-45deg);
+  text-align: bottom;
+  margin
 }
 
 #homeBtn {
   margin-left: 25%;
+  margin-top: 10%;
+
 }
 
 #projectsBtn {
   display: block;
-
+  margin-left: 16%;
+  margin-top: -65px;
 }
 
 #aboutBtn {
-  display: inline-block;
+  display: block;
+  margin-left: 34%;
+  margin-top: -215px;
+
 }
 
 #contactBtn {
-  /* border-radius: 4px; */
+  margin-top: -65px;
+  margin-left: 25%;
 }
