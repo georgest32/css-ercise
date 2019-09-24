@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="styles.css">
+    <script src="popOuts.js"></script>
   </head>
   <body>
 
-    <div class="mainBtn" id="homeBtn">
+    <div class="mainBtn" id="homeBtn" onclick="showDiv()">
       <p>Home</p>
+      <div id="homePopout" style="display:none;" class="popOut"></div>
     </div>
 
     <div class="mainBtn" id="projectsBtn">

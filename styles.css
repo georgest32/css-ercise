@@ -13,12 +13,11 @@
   color: black;
   transform: rotate(-45deg);
   text-align: bottom;
-  margin
 }
 
 #homeBtn {
   margin-left: 25%;
-  margin-top: 10%;
+  margin-top: 20%;
 
 }
 
@@ -38,4 +37,15 @@
 #contactBtn {
   margin-top: -65px;
   margin-left: 25%;
+}
+
+.popOut{
+  width: 200px;
+  height: 200px;
+}
+
+#homePopout{
+  background-color: red;
+  margin-top: -234px;
+  margin-left: -200px;
 }
